@@ -12,12 +12,12 @@
 //      § Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 //      § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
-let markMass = 78, markHeight = 1.69;
-let johnMass = 92, johnHeight = 1.95;
-
-let markBmi = markMass / markHeight ** 2;
-let johnBmi = johnMass / johnHeight ** 2;
-
-let markHigherBMI = markBmi > johnBmi;
-console.log(markBmi, johnBmi, markHigherBMI);
+// let markMass = 78, markHeight = 1.69;
+// let johnMass = 92, johnHeight = 1.95;
+//
+// let markBmi = markMass / markHeight ** 2;
+// let johnBmi = johnMass / johnHeight ** 2;
+//
+// let markHigherBMI = markBmi > johnBmi;
+// console.log(markBmi, johnBmi, markHigherBMI);
 
