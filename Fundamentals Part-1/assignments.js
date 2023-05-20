@@ -1,0 +1,25 @@
+"use strict";
+
+// LECTURE: Values and Variables
+
+let country = "Belarus";
+let population = 10_000_000;
+
+// console.log(country);
+
+// LECTURE: Data Types
+// 1. Declare a variable called 'isIsland' and set its value according to your
+// country. The variable should hold a Boolean value. Also declare a variable
+// 'language', but don't assign it any value yet
+// 2. Log the types of 'isIsland', 'population', 'country' and 'language'
+// to the console
+
+let isIsland = false;
+let language;
+
+typeof(country);
+typeof(population);
+typeof(isIsland);
+
+
+
