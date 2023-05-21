@@ -57,28 +57,38 @@ console.log(test);
 //
 // console.log(userJonas.getSummary());
 
-const mike = {
-    fullName: "Mike",
-    mass: 78,
-    height: 1.69,
-    calcBmi: function () {
-        this.bmi = this.mass / this.height**2;
-        return this.bmi;
-    }
+// const mike = {
+//     fullName: "Mike",
+//     mass: 78,
+//     height: 1.69,
+//     calcBmi: function () {
+//         this.bmi = this.mass / this.height**2;
+//         return this.bmi;
+//     }
+// }
+//
+// const john = {
+//     fullName: "John",
+//     mass: 92,
+//     height: 1.95,
+//     calcBmi: function () {
+//         this.bmi = this.mass / this.height**2;
+//         return this.bmi;
+//     }
+// }
+//
+// const mikeTest = mike.calcBmi();
+// const johnTest = john.calcBmi();
+// console.log(mikeTest, johnTest);
+
+// for (let i = 0; i <= 9; i++) {
+//     console.log(`Attempn #${i + 1}`);
+// }
+
+let i = 1;
+while (i <= 5) {
+  console.log(`Attempt #${i}`);
+  i++;
 }
 
-const john = {
-    fullName: "John",
-    mass: 92,
-    height: 1.95,
-    calcBmi: function () {
-        this.bmi = this.mass / this.height**2;
-        return this.bmi;
-    }
-}
-
-const mikeTest = mike.calcBmi();
-const johnTest = john.calcBmi();
-console.log(mikeTest, johnTest);
-
-
+const testArrow = (parametr) => 22 * 11;
