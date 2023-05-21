@@ -10,17 +10,17 @@
 // BMI (28.3) is higher than John's (23.9)!"
 // Hint: Use an if/else statement �
 
-let markMass = 78, markHeight = 1.69;
-let johnMass = 92, johnHeight = 1.95;
-
-let markBmi = markMass / markHeight ** 2;
-let johnBmi = johnMass / johnHeight ** 2;
-
-if(markBmi > johnBmi) {
-    console.log(`Mark's's BMI larger (${Math.round(markBmi*100)/100})`);
-} else if(markBmi < johnBmi) {
-    console.log(`John's BMI larger (${Math.round(johnBmi*100)/100})`);
-} else {
-    console.log("Equal")
-}
+// let markMass = 78, markHeight = 1.69;
+// let johnMass = 92, johnHeight = 1.95;
+//
+// let markBmi = markMass / markHeight ** 2;
+// let johnBmi = johnMass / johnHeight ** 2;
+//
+// if(markBmi > johnBmi) {
+//     console.log(`Mark's's BMI larger (${Math.round(markBmi*100)/100})`);
+// } else if(markBmi < johnBmi) {
+//     console.log(`John's BMI larger (${Math.round(johnBmi*100)/100})`);
+// } else {
+//     console.log("Equal")
+// }
 
